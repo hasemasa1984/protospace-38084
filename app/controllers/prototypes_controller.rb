@@ -1,4 +1,6 @@
 class PrototypesController < ApplicationController
-  def index
+  def new_password_path
+    @user = all
   end
+  
 end
